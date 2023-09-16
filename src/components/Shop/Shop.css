@@ -8,3 +8,22 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .products-container{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 45px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .products-container{
+        margin: 50px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 45px;
+    }
+}
